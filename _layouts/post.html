@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{%- if page.verdict -%}{%- assign v = site.data.brand.verdicts[page.verdict] -%}{%- endif -%}
+<article class="wrap article">
+  <header class="article__head">
+    <p class="label label--accent">
+      {%- if page.format == "second-look" -%}Second Look{% if page.episode %} #{{ page.episode }}{% endif %}
+      {%- else -%}{{ page.topic | default: "Research" }}{%- endif -%}
+    </p>
+    <h1 class="article__title">{{ page.title }}</h1>
+    {%- if page.dek %}<p class="article__dek">{{ page.dek }}</p>{% endif %}
+    <p class="article__meta">
+      <time class="label" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+      {% include badge.html review=page.review_status %}
+    </p>
+  </header>
+
+  {%- if v %}
+  <aside class="verdict verdict--{{ v.color }}" aria-label="Verdict">
+    <p class="label">The headline</p>
+    {%- if page.headline_checked %}<p class="verdict__headline">“{{ page.headline_checked }}”</p>{% endif %}
+    <p class="verdict__word">{{ v.label }}</p>
+    <p class="verdict__gloss">{{ v.gloss }}</p>
+  </aside>
+  {%- endif %}
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {%- if page.sources %}
+  <section class="sources" aria-labelledby="sources-h">
+    <h2 id="sources-h" class="label">Sources</h2>
+    <ol>
+      {%- for s in page.sources %}
+      <li><a href="{{ s.url }}">{{ s.title }}</a>{% if s.note %} <span class="sources__note">{{ s.note }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+
+  {%- if page.follow_up %}
+  <p class="promise"><span class="label label--amber">Second Look promised</span> {{ page.follow_up }}</p>
+  {%- endif %}
+
+  <nav class="article__foot" aria-label="More">
+    {%- if page.reel %}<a class="label" href="{{ page.reel }}">Watch the Reel</a>{% endif %}
+    <a class="label" href="{{ '/' | relative_url }}">All articles</a>
+  </nav>
+</article>

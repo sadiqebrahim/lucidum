@@ -1,0 +1,27 @@
+---
+layout: default
+title: Second Look
+permalink: /second-look/
+description: Every Sunday, one widely shared science headline checked against the study behind it.
+---
+{%- assign eps = site.posts | where: "format", "second-look" -%}
+<section class="wrap hero">
+  <p class="label label--accent">Every Sunday</p>
+  <h1 class="hero__title">{{ site.data.brand.series.tagline }}</h1>
+  <p class="hero__lede">Each week we take one science headline that travelled far and read the study behind it. Then we say how well the two match.</p>
+  <ul class="verdict-key">
+    {%- for pair in site.data.brand.verdicts %}{% assign v = pair[1] %}
+    <li><span class="badge badge--{{ v.color }}">{{ v.label }}</span> {{ v.gloss }}</li>
+    {%- endfor %}
+  </ul>
+</section>
+<section class="wrap" aria-labelledby="episodes">
+  <h2 id="episodes" class="label section-label">Episodes</h2>
+  {%- if eps.size > 0 %}
+  <ul class="cards">
+    {%- for post in eps %}{% include card.html post=post %}{% endfor %}
+  </ul>
+  {%- else %}
+  <p class="empty">The first episode lands on a Sunday soon.</p>
+  {%- endif %}
+</section>

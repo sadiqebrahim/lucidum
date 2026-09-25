@@ -1,0 +1,4 @@
+{%- assign rs = include.review | default: "n/a" -%}
+{%- if rs == "peer-reviewed" -%}<span class="badge badge--eyeshine">Peer-reviewed</span>
+{%- elsif rs == "preprint" -%}<span class="badge badge--amber">Preprint · not yet peer-reviewed</span>
+{%- endif -%}

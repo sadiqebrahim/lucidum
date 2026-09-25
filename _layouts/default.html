@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Lucidum, home">
+      <img src="{{ '/assets/img/eyes.png' | relative_url }}" alt="" width="60" height="28">
+      <span class="wordmark">LUCIDUM</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Articles</a>
+      <a href="{{ '/second-look/' | relative_url }}"{% if page.url == "/second-look/" %} aria-current="page"{% endif %}>Second Look</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p class="motto">{{ site.tagline }}</p>
+    <p class="label">
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      {%- if site.instagram != "" %} · <a href="https://www.instagram.com/{{ site.instagram }}/">Instagram</a>{% endif %}
+      · Narration on our Reels is AI-generated
+    </p>
+  </div>
+</footer>
+</body>
+</html>

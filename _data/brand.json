@@ -1,0 +1,44 @@
+{
+  "name": "Lucidum",
+  "motto": "New research, brought to light.",
+  "site": {"url": "https://sadiqebrahim.github.io/lucidum/", "repo": "sadiqebrahim/lucidum"},
+  "series": {
+    "name": "Second Look",
+    "day": "Sunday",
+    "timezone": "Asia/Kolkata",
+    "tagline": "Every headline deserves a second look.",
+    "sign_off": "Look twice. See you next Sunday.",
+    "hashtag": "#LucidumSecondLook"
+  },
+  "colors": {
+    "night": "#0B0D12",
+    "dusk": "#161A22",
+    "rule": "#262C37",
+    "paper": "#F2EEE4",
+    "mist": "#98A0AF",
+    "eyeshine": "#D4F35B",
+    "amber": "#F6B544",
+    "coral": "#FF6B57",
+    "twilight": "#8F9BFF"
+  },
+  "fonts": {
+    "display": "SpaceGrotesk-Bold.ttf",
+    "display_medium": "SpaceGrotesk-Medium.ttf",
+    "body": "Inter-Regular.ttf",
+    "body_semibold": "Inter-SemiBold.ttf",
+    "body_bold": "Inter-Bold.ttf",
+    "mono": "SpaceMono-Regular.ttf",
+    "mono_bold": "SpaceMono-Bold.ttf"
+  },
+  "review_badges": {
+    "peer-reviewed": {"text": "PEER-REVIEWED", "color": "eyeshine"},
+    "preprint": {"text": "PREPRINT · NOT YET PEER-REVIEWED", "color": "amber"},
+    "n/a": null
+  },
+  "verdicts": {
+    "clear": {"label": "CLEAR", "gloss": "The headline matches the evidence.", "color": "eyeshine", "eyes": "clear"},
+    "blurry": {"label": "BLURRY", "gloss": "Right idea, fuzzy on the details that matter.", "color": "amber", "eyes": "blurry"},
+    "glare": {"label": "GLARE", "gloss": "The headline shines brighter than the evidence.", "color": "coral", "eyes": "glare"},
+    "dark": {"label": "IN THE DARK", "gloss": "Too early to tell. The evidence isn't in yet.", "color": "twilight", "eyes": "dark"}
+  }
+}

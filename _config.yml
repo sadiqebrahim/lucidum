@@ -1,0 +1,34 @@
+# Lucidum articles site, built by GitHub Pages from the root of main.
+# baseurl and url are filled in by GitHub Pages automatically; set them here
+# only if you move the site to a custom domain.
+title: Lucidum
+tagline: New research, brought to light.
+description: >-
+  Longer reads behind Lucidum's posts: new research in physics, quantum
+  computing and deep tech, explained plainly, with every source linked.
+lang: en
+timezone: Asia/Kolkata
+instagram: ""          # e.g. lucidum.science — fills in the footer link
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values:
+      image: /assets/img/social.jpg
+
+exclude:
+  - README.md
