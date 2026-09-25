@@ -4,6 +4,7 @@ dek: The tapetum lucidum gives light a second pass through the eye. We try to do
 topic: About Lucidum
 format: explainer
 review_status: n/a
+thumb: /assets/posts/2026-09-25-why-lucidum/diagram.png
 sources:
   - title: Tapetum lucidum, Wikipedia
     url: https://en.wikipedia.org/wiki/Tapetum_lucidum

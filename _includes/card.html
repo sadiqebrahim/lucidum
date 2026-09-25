@@ -1,17 +1,23 @@
 {%- assign p = include.post -%}
-<li class="card">
-  <a class="card__link" href="{{ p.url | relative_url }}">
-    <p class="label">
-      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%d %b %Y" }}</time>
-      {%- if p.format == "second-look" %} · Second Look{% if p.episode %} #{{ p.episode }}{% endif %}
-      {%- elsif p.topic %} · {{ p.topic }}{% endif %}
-    </p>
-    <h3 class="card__title">{{ p.title }}</h3>
-    {%- if p.dek %}<p class="card__dek">{{ p.dek }}</p>{% endif %}
+<li>
+  <a class="card{% if p.thumb %} card--thumb{% endif %}" href="{{ p.url | relative_url }}">
+    <div class="card__body">
+      <p class="label">
+        <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%d %b %Y" }}</time>
+        {%- if p.format == "second-look" %} · Second Look{% if p.episode %} #{{ p.episode }}{% endif %}
+        {%- elsif p.topic %} · {{ p.topic }}{% endif %}
+      </p>
+      <h3 class="card__title">{{ p.title }}</h3>
+      {%- if p.dek %}<p class="card__dek">{{ p.dek }}</p>{% endif %}
+      <p class="card__meta">
+        {%- if p.verdict -%}{%- assign v = site.data.brand.verdicts[p.verdict] -%}
+        <span class="badge badge--{{ v.color }}">{{ v.label }}</span>{%- endif -%}
+        {% include badge.html review=p.review_status %}
+        <span class="card__cta">Read the article <span aria-hidden="true">→</span></span>
+      </p>
+    </div>
+    {%- if p.thumb %}
+    <img class="card__thumb" src="{{ p.thumb | relative_url }}" alt="" loading="lazy">
+    {%- endif %}
   </a>
-  <p class="card__meta">
-    {%- if p.verdict -%}{%- assign v = site.data.brand.verdicts[p.verdict] -%}
-    <span class="badge badge--{{ v.color }}">{{ v.label }}</span>{%- endif -%}
-    {% include badge.html review=p.review_status %}
-  </p>
 </li>
