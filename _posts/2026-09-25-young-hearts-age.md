@@ -1,4 +1,5 @@
 ---
+date: 2026-09-25 23:53:04 +0530
 title: A young heart doesn't stay young
 dek: In mice, and in stored biopsies from human transplant patients, donor hearts took on the recipient's biological age within months, according to a preprint that hasn't been peer-reviewed.
 topic: Health

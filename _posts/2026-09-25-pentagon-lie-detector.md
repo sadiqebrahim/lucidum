@@ -1,4 +1,5 @@
 ---
+date: 2026-09-25 23:59:59 +0530
 title: The Pentagon's AI lie detector
 dek: The US Department of Defense has asked for $30.3 million over five years to build an AI-scored lie detector that can take readings without touching you, a request Congress hasn't approved yet.
 topic: AI

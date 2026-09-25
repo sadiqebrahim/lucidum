@@ -1,4 +1,5 @@
 ---
+date: 2026-09-25 16:57:08 +0530
 title: Why we're named after a cat's eye
 dek: The tapetum lucidum gives light a second pass through the eye. We try to do the same for new research.
 topic: About Lucidum

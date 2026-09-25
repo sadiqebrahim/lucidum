@@ -1,4 +1,5 @@
 ---
+date: 2026-09-25 23:50:08 +0530
 title: Particles nature never made just went universal
 dek: On a 54-qubit trapped-ion machine, physicists braided and fused made-to-order particles to get every operation a quantum computer needs, in a proof-of-principle experiment.
 topic: Quantum computing
