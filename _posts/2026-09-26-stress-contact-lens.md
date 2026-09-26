@@ -7,9 +7,7 @@ format: explainer
 review_status: peer-reviewed
 thumb: /assets/posts/2026-09-26-stress-contact-lens/thumb.jpg
 sources:
-  - title: Smart contact lens measures serotonin in tears, IEEE Spectrum
-    url: https://spectrum.ieee.org/serotonin-stress-smart-contact-lens
-  - title: Zhu et al., Science Translational Medicine, 16 September 2026 (as reported by IEEE Spectrum)
+  - title: Smart contact lens measures serotonin in tears, IEEE Spectrum (on Zhu et al., Science Translational Medicine, 16 Sep 2026)
     url: https://spectrum.ieee.org/serotonin-stress-smart-contact-lens
   - title: Corrective soft contact lenses, Albarubescens, Wikimedia Commons (CC BY-SA 4.0; thumbnail and Reel)
     url: https://commons.wikimedia.org/wiki/File:Corrective_soft_contact_lenses,_with_high_oxigen_permeability.jpg
