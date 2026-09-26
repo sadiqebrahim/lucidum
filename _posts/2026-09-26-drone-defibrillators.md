@@ -34,7 +34,7 @@ Drones changed the picture. In the hybrid set-up, the average time to get an AED
 
 ## How it works
 
-The idea is the difference between a delivery van and a direct flight. A fixed AED effectively serves a circle of about 500 metres, the distance someone can reasonably run to fetch it and come back. A drone base, in the model, reaches about 3.9 kilometres. Fewer, well-placed bases could therefore cover a region that would otherwise need hundreds of extra wall units. When the drone lands, a bystander already at the scene would collect the AED and use it, with the emergency services talking them through it.
+The idea is the difference between a delivery van and a direct flight. In the model, a fixed AED serves a range of about 500 metres, while a drone base reaches about 3.9 kilometres. Fewer, well-placed bases could therefore cover a region that would otherwise need hundreds of extra wall units. When the drone lands, a bystander already at the scene would collect the AED and use it, with the emergency services talking them through it.
 
 ## Why it matters
 
