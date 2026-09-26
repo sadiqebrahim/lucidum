@@ -36,7 +36,7 @@ It also has two body forms and can switch between them. Rappaport describes one 
 
 ## Why it matters
 
-Complex cells are more fragile than simple ones, with more internal machinery to keep intact, so their heat ceiling tells us something about what kinds of life can exist where. A higher ceiling widens the range of environments, on Earth and potentially on other worlds, where we should expect to find more than just microbes without a nucleus. And proteins that stay stable when hot are useful in their own right, in everything from industrial enzymes to lab reagents.
+The heat ceiling for complex cells marks where life with a nucleus can and can't survive. Raising it widens the set of hot environments, on Earth and potentially elsewhere, where scientists should look for more than just bacteria and archaea. It also points to how cells can be built to cope with heat: the fire amoeba's genes are now a guide to which changes make that possible.
 
 For scale, simpler life still wins by a long way: the archaeon *Methanopyrus kandleri* holds the record for any organism, growing at <mark>122°C</mark>.
 
