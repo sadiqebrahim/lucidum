@@ -40,7 +40,7 @@ The paper's scorecard is a single ratio it calls stretch: the number of extra pa
 ![Stretch against physical error rate for the three test programs, on a log scale]({{ '/assets/posts/2026-09-27-ionq-realtime-decoder/fig1d.png' | relative_url }})
 *Fig. 1d from Ye, Maksymov & Delfosse (cropped), CC BY 4.0. Each line is one test program; lower is better.*
 
-At an error rate of 1 in 10,000, stretch stayed under 0.3% for all three programs. At 5 in 10,000 it rose to under 12%. The 408-qubit program did best, at under 1% even at the highest error rate, because its slower 5-millisecond cycles gave the chip more time per step.
+At an error rate of 1 in 10,000, stretch stayed under 0.3% for all three programs. At 5 in 10,000 it rose to under 12%. The 408-qubit program stayed under 1% even at the highest error rate, but it was run with slower 5-millisecond cycles, which the authors chose to offset the larger number of blocks each core had to handle.
 
 ## The trick that made it fit on one chip
 
