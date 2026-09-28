@@ -46,9 +46,9 @@ The swings are a few milliseconds over a few decades. A day lasts 86,400,000 mil
 
 ## Why it matters
 
-Scientists have long argued about what drives these decade-long swings, and the core has been a suspect for years. Pinning much of it on a specific mechanism, gravity between the inner core and the mantle, gives a way to read the length of the day as a signal from deep inside the planet. Tiny changes measured at the surface become a window onto how the inner core moves and how the mantle's rock is arranged.
+Pinning the decade-long swings on a specific mechanism, gravity between the inner core and the mantle, gives a way to read the length of the day as a signal from deep inside the planet. Tiny changes measured at the surface become a window onto how the inner core moves and how the mantle's rock is arranged.
 
-The coverage we could read describes the mechanism but not the size of each torque or how well the model matches every past swing, and we could not open the paper itself. Other effects also change the length of a day, including the Moon's tides, the atmosphere and the oceans; this study is about the slow, decades-long part, not every millisecond.
+The coverage we could read describes the mechanism but not the size of each torque or how well the model matches every past swing, and we could not open the paper itself. This study is about the slow, decades-long part of the changes, not every millisecond of them.
 {: .catch}
 
 Your day is a few milliseconds long or short partly because of a slow tug of war 5,000 kilometres down.
