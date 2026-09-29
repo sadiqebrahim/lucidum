@@ -1,7 +1,7 @@
 ---
 date: 2026-09-29 15:49:00 +0530
 title: Scientists trapped a ray of light
-dek: "Scientists froze light and turned it solid" is a headline that keeps coming back. Light has never turned solid, but it has been slowed to 17 metres a second, stopped inside a cloud of atoms, and released again on command.
+dek: A headline keeps claiming scientists froze light and turned it solid. Light has never turned solid, but it has been slowed to 17 metres a second, stopped inside a cloud of atoms, and released again on command.
 topic: Physics
 format: explainer
 review_status: peer-reviewed
