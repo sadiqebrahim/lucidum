@@ -1,5 +1,5 @@
 ---
-date: 2026-09-29 15:50:00 +0530
+date: 2026-09-29 15:49:00 +0530
 title: Scientists trapped a ray of light
 dek: "Scientists froze light and turned it solid" is a headline that keeps coming back. Light has never turned solid, but it has been slowed to 17 metres a second, stopped inside a cloud of atoms, and released again on command.
 topic: Physics
@@ -45,7 +45,7 @@ Light's speed in any material is v = c / n, where c is its speed in empty space 
 
 ## Switch it off, and the light is caught
 
-In 2001 the team [went further](https://doi.org/10.1038/35054017). With a pulse slowed inside the cloud, they switched the control laser off. The transparency vanished and the pulse disappeared, but its shape and phase were [imprinted on the sodium atoms](https://news.harvard.edu/gazette/story/2001/01/researchers-now-able-to-stop-restart-light/). The light was, in effect, caught, like a mouse that walks into a cage just before the door shuts. About a thousandth of a second later they switched the laser back on, and the same pulse came back out and left the cloud at full speed. Another Harvard team, working with warm rubidium gas, reported storing light the same year.
+In 2001 the team [went further](https://doi.org/10.1038/35054017). With a pulse slowed inside the cloud, they switched the control laser off. The transparency vanished and the pulse disappeared, but its shape and phase were [imprinted on the sodium atoms](https://news.harvard.edu/gazette/story/2001/01/researchers-now-able-to-stop-restart-light/). The light was, in effect, caught, like a mouse that walks into a cage just before the door shuts. About a thousandth of a second later they switched the laser back on, and the same pulse came back out and left the cloud at full speed. A second Harvard team, at the Harvard-Smithsonian Center for Astrophysics, [reported storing light in an atomic vapour](https://doi.org/10.1103/PhysRevLett.86.783) the same year.
 
 ![A cage closes around the atom cloud; the light's shape stays stored in the atoms.]({{ '/assets/posts/2026-09-29-stopped-light/trapped.png' | relative_url }})
 *Laser off: the pulse's shape is held in the atoms until the laser comes back on.*
