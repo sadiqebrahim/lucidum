@@ -11,6 +11,9 @@ sources:
   - title: "The Mermin-Peres Magic Square Game With Three or More Players, Itamar Lorian and J. E. Avron, arXiv 2610.06534 (5 Oct 2026)"
     url: https://arxiv.org/abs/2610.06534
     note: (preprint)
+  - title: "Quantum pseudo-telepathy: the Mermin-Peres magic square game, Wikipedia"
+    url: https://en.wikipedia.org/wiki/Quantum_pseudo-telepathy
+    note: (background on the two-player game)
 ---
 
 There is a puzzle that two players who can't talk to each other can win every single time, but only if they share quantum entanglement. It's one of the neatest demonstrations that the quantum world beats anything classical. A [new paper](https://arxiv.org/abs/2610.06534) asks what happens when you add a third player, and finds that the magic breaks.
