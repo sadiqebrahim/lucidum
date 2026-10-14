@@ -2,7 +2,7 @@
 date: 2026-10-13 23:52:00 +0530
 title: Change one number in quantum physics, and looking freezes a gas
 dek: A thought experiment warps quantum theory's Born rule from a square to a power of 2b, and finds that repeatedly watching a gas makes it clump and freeze, like Maxwell's demon.
-topic: Quantum computing
+topic: Physics
 format: explainer
 review_status: preprint
 thumb: /assets/posts/2026-10-13-warped-born/thumb.jpg
