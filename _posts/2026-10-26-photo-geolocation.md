@@ -1,5 +1,5 @@
 ---
-date: 2026-10-26 14:30:00 +0530
+date: 2026-10-26 12:30:00 +0530
 title: No GPS, and AI still finds where your photo was taken
 dek: Reasoning AI models placed about one in four ordinary photos within a kilometre, with no landmarks or location data. The giveaway is the small stuff, and that is also the fix.
 topic: AI
