@@ -33,11 +33,11 @@ They also found that localised perturbations on the wider network reveal local w
 
 ## Why it matters
 
-The authors frame this as a way to quantify critical points in essential infrastructure, at a time when the extreme weather that triggers them is expected to intensify with climate change. The paper also points to the July 2021 rains in Germany and the Benelux countries, up to 100 mm a day, which disrupted the German-wide rail network.
+The authors frame this as a way to quantify critical points in essential infrastructure, at a time when the extreme weather that triggers them is expected to intensify with climate change. The paper also points to the heavy rains of July 2021 in Germany and the Benelux countries: up to 100 mm a day, which affected the functioning of the German-wide rail network.
 
 ## The catch
 
-This is a model, applied to two countries' networks, and the curves in our video are schematic rather than the paper's data. It identifies a threshold within the model; how close any real network is to its tipping point depends on details such as timetables, repairs and local conditions.
+The authors note that the rainfall in their own Italian and Chinese data never reached the disruption phase; the system-wide regime comes from the model, with real-world examples from the literature. This is a model, applied to two countries' networks, and the curves in our video are schematic rather than the paper's data. It identifies a threshold within the model; how close any real network is to its tipping point depends on details such as timetables, repairs and local conditions.
 {: .catch}
 
 Railways may not fail gently. They can tip.
