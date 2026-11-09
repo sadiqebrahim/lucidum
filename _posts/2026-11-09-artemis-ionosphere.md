@@ -1,5 +1,5 @@
 ---
-date: 2026-11-09 12:15:00 +0530
+date: 2026-11-09 08:15:00 +0530
 title: Artemis II punched holes in the sky, and GPS stations saw them
 dek: The Moon rocket's shock waves cleared 5,000-km trails through the ionosphere, the strongest disturbance from any launch so far, according to a new preprint.
 topic: Space

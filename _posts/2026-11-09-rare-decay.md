@@ -1,5 +1,5 @@
 ---
-date: 2026-11-09 12:05:00 +0530
+date: 2026-11-09 08:05:00 +0530
 title: After 42 years, evidence of a one-in-ten-billion particle decay
 dek: The upgraded LHCb experiment at CERN has seen the first evidence of a beauty particle turning into two muons, a decay predicted to happen once in every ten billion.
 topic: Physics

@@ -1,5 +1,5 @@
 ---
-date: 2026-11-09 12:00:00 +0530
+date: 2026-11-09 08:00:00 +0530
 title: Voyager 1 is about to be a whole day of light away
 dek: On 18 November 2026, Voyager 1 becomes the first human-made object one light-day from Earth. Every message to it now takes a day to arrive.
 topic: Space
